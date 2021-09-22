@@ -1,0 +1,11 @@
+.icon {
+	height: 40px
+	width: 40px;
+}
+
+body {
+ background-image: url("./assests/unitEditBG.png");
+ background-attachment: fixed;
+ background-position: center;
+
+}
