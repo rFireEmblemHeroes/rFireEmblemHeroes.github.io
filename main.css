@@ -1,0 +1,34 @@
+.icon {
+	height: 75px
+	width: 75px;
+}
+
+body {
+ background-image: url("./assests/unitEditBG.png");
+ background-attachment: fixed;
+ background-position: center;
+
+}
+
+a {text-decoration: none;}
+
+a img {
+	height: 90px;
+	width: 90px;
+}
+
+@-ms-viewport {
+	width: device-width;
+}
+
+body {
+	-ms-overflow-style: scrollbar;
+}
+
+@media screen and (max-width: 480px) {
+
+		html, body {
+			min-width: 320px;
+		}
+
+}
