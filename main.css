@@ -39,7 +39,7 @@ body {
 
 @media screen and (max-width: 480px) {
 
-		html, body {
+		html, body, {
 			min-width: 320px;
 		}
 
@@ -59,7 +59,7 @@ body {
 }
 
 .topframe{
-	background-image: url("./assests/Catalog_Top_Frame.png");
+	background-image: url("./assets/Catalog_Top_Frame.png");
 	background-position: top;
 	background-repeat: no-repeat;
 	position: relative;
@@ -88,7 +88,6 @@ body {
 }
 
 .bottomframe{
-	background-image: url("./assests/Catalog_Top_Frame.png");
 	background-position: top
 	background-repeat: no-repeat;
 	position: relative;
