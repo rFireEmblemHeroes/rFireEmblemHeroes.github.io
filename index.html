@@ -7,7 +7,7 @@
 	<head>
 		<title>r/FireEmblemHeroes Flair Selector</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="viewport" content="width=1200, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="main.css" />
 		<noscript>
 			<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
@@ -40,46 +40,15 @@
 
 		<div class='bottomframe'> 
 			<img src="./assets/Catalog_Bottom_Frame.png">
+			<div class="backButton">
+				<a href="https://reddit.com/r/FireEmblemHeroes/" target="_blank" class="back">
+					<img src="assets/backButton.png" alt=""/>
+				</a>
+			</div>
 		</div>
 
 	</body>
 
 
-	<script>
-
-		function filter(key){
-
-			let sortkeys = ['alfonse', 'marth', 'alm', 'seliph', 'leif', 'roy', 'lyn', 'ephraim', 'ike', 'micaiah', 'chrom', 'corrin', 'sothis', 'itsuki', 'all'];
-
-			let index = sortkeys.indexOf(key)
-
-			sortkeys.splice(index, 1);
-
-			for (let j = 0; j < sortkeys.length; j++){
-				let nodes = document.getElementsByClassName(`${sortkeys[j]}`)
-				for (let i = 0; i < nodes.length; i++) {
-					let hero = nodes[i];
-						hero.style.display = 'none';
-				}
-				let id = `${sortkeys[j]}img`
-				let file = `sortIcons/${sortkeys[j]}Sort.png`
-				
-				document.getElementById(id).src = file;
-			}
-
-			let keep = document.getElementsByClassName(key)
-			for (let i = 0; i < keep.length; i++) {
-					let hero = keep[i];
-						hero.style.display = 'inline-block';
-			}
-
-			let id = `${key}img`;
-			let file = `sortIcons/${key}Glow.png`;
-
-			document.getElementById(id).src = file;
-
-		}
-
-	</script>
 
 </html>

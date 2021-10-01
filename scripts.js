@@ -49,6 +49,39 @@ return array.sort(function(a, b) {
 });
 }
 
+function filter(key){
+
+	let sortkeys = ['alfonse', 'marth', 'alm', 'seliph', 'leif', 'roy', 'lyn', 'ephraim', 'ike', 'micaiah', 'chrom', 'corrin', 'sothis', 'itsuki', 'all'];
+
+	let index = sortkeys.indexOf(key)
+
+	sortkeys.splice(index, 1);
+
+	for (let j = 0; j < sortkeys.length; j++){
+		let nodes = document.getElementsByClassName(`${sortkeys[j]}`)
+		for (let i = 0; i < nodes.length; i++) {
+			let hero = nodes[i];
+				hero.style.display = 'none';
+		}
+		let id = `${sortkeys[j]}img`
+		let file = `sortIcons/${sortkeys[j]}Sort.png`
+		
+		document.getElementById(id).src = file;
+	}
+
+	let keep = document.getElementsByClassName(key)
+	for (let i = 0; i < keep.length; i++) {
+			let hero = keep[i];
+				hero.style.display = 'inline-block';
+	}
+
+	let id = `${key}img`;
+	let file = `sortIcons/${key}Glow.png`;
+
+	document.getElementById(id).src = file;
+
+}
+
 function showAll(){
 	let sortkeys = ['alfonse', 'marth', 'alm', 'seliph', 'leif', 'roy', 'lyn', 'ephraim', 'ike', 'micaiah', 'chrom', 'corrin', 'sothis', 'itsuki', 'all'];
 	for (let j = 0; j < sortkeys.length; j++){
