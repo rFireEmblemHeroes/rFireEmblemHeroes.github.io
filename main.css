@@ -45,13 +45,6 @@ body {
 		html, body, {
 			min-width: 320px;
 		}
-		body {
-			width: 100vw;
-			height: 100vh;
-			background-size: cover;
-			background-position: center;
-		}
-
 		.icons{
 			margin-top: -5px;
 		}
