@@ -116,7 +116,7 @@ let data = [
     "game": "01",
     "image": "1_2010.png",
     "class": "n10",
-    "sortcode": 102010
+    "sortcode": 2010
   },
   {
     "flairtext": "Veronica",
@@ -492,7 +492,7 @@ let data = [
   {
     "flairtext": "Green Flier",
     "game": "09",
-    "image": "99_1013.png",
+    "image": "99_1006.png",
     "class": "a8",
     "sortcode": 1013
   },
@@ -1108,9 +1108,9 @@ let data = [
   {
     "flairtext": "Sirius",
     "game": "12",
-    "image": "110_33010.png",
+    "image": "110_32010.png",
     "class": "c47",
-    "sortcode": 33010
+    "sortcode": 32010
   },
   {
     "flairtext": "Eremiya",
@@ -2480,9 +2480,9 @@ let data = [
   {
     "flairtext": "Charlotte",
     "game": "142",
-    "image": "1143_7010.png",
+    "image": "1143_17010.png",
     "class": "r110",
-    "sortcode": 7010
+    "sortcode": 17010
   },
   {
     "flairtext": "Nyx",
@@ -4134,7 +4134,7 @@ let data = [
     "game": "6",
     "image": "160_23020.png",
     "class": "q81",
-    "sortcode": 12310
+    "sortcode": 23020
   },
   {
     "flairtext": "Merlinus",
