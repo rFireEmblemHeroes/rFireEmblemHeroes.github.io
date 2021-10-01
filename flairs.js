@@ -1,4 +1,4 @@
-[
+let data = [
   {
     "flairtext": "Gustav",
     "game": "0",
@@ -4132,7 +4132,7 @@
   {
     "flairtext": "Geese (Pirate)",
     "game": "6",
-    "image": "160_12310.png",
+    "image": "160_23020.png",
     "class": "q81",
     "sortcode": 12310
   },
@@ -4804,7 +4804,7 @@
   {
     "flairtext": "Cormag",
     "game": "8",
-    "image": "180_12810.png",
+    "image": "180_28010.png",
     "class": "c67",
     "sortcode": 12810
   },
@@ -4979,7 +4979,7 @@
   {
     "flairtext": "Saleh (Spring)",
     "game": "8",
-    "image": "180_27030.png",
+    "image": "180_27020.png",
     "class": "r62",
     "sortcode": 27030
   },
