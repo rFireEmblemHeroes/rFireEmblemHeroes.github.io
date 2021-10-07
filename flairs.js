@@ -1512,7 +1512,7 @@ let data = [
     "sortcode": 2020
   },
   {
-    "flairtext": "Grima (Halloween)",
+    "flairtext": "Grima (Female)(Halloween)",
     "game": "131",
     "image": "1131_3040.png",
     "class": "q109",
@@ -5532,9 +5532,9 @@ let data = [
   {
     "flairtext": "Ena (Halloween)",
     "game": "95",
-    "image": "1103_6020.png",
+    "image": "1103_7020.png",
     "class": "q110",
-    "sortcode": 6020
+    "sortcode": 7020
   },
   {
     "flairtext": "Dheginsea (Halloween)",
@@ -5612,5 +5612,103 @@ let data = [
     "image": "9999_1020.png",
     "class": "grima",
     "sortcode": 1020
+  },
+  {
+    "flairtext": "Yuri",
+    "game": "16",
+    "image": "1165_1010.png",
+    "class": "t46",
+    "sortcode": 1010
+  },
+  {
+    "flairtext": "Constance",
+    "game": "16",
+    "image": "1165_2010.png",
+    "class": "t43",
+    "sortcode": 2010
+  },
+  {
+    "flairtext": "Hapi",
+    "game": "16",
+    "image": "1165_3010.png",
+    "class": "t44",
+    "sortcode": 3010
+  },
+  {
+    "flairtext": "Balthus",
+    "game": "16",
+    "image": "1165_4010.png",
+    "class": "t42",
+    "sortcode": 4010
+  },
+  {
+    "flairtext": "Aelfric",
+    "game": "16",
+    "image": "1165_5010.png",
+    "class": "t41",
+    "sortcode": 5010
+  },
+  {
+    "flairtext": "Sothe (Resplendent)",
+    "game": "10",
+    "image": "1101_2020.png",
+    "class": "t45",
+    "sortcode": 2020
+  },
+  {
+    "flairtext": "Fjorm (Bloom)",
+    "game": "2",
+    "image": "2_2040.png",
+    "class": "t40",
+    "sortcode": 2040
+  },
+  {
+    "flairtext": "Shanna (Resplendent)",
+    "game": "6",
+    "image": "160_13011.png",
+    "class": "t38",
+    "sortcode": 13011
+  },
+  {
+    "flairtext": "Grima (Male)(Halloween)",
+    "game": "13",
+    "image": "1131_2050.png",
+    "class": "t34",
+    "sortcode": 2050
+  },
+  {
+    "flairtext": "Sothis (Halloween)",
+    "game": "16",
+    "image": "1161_3030.png",
+    "class": "t36",
+    "sortcode": 3030
+  },
+  {
+    "flairtext": "Byleth (Male)(Halloween)",
+    "game": "16",
+    "image": "1161_1030.png",
+    "class": "t35",
+    "sortcode": 1030
+  },
+  {
+    "flairtext": "Kurthnaga (Halloween)",
+    "game": "10",
+    "image": "1103_6020.png",
+    "class": "t33",
+    "sortcode": 6020
+  },
+  {
+    "flairtext": "Sophia (Halloween)",
+    "game": "6",
+    "image": "160_29030.png",
+    "class": "t39",
+    "sortcode": 29030
+  },
+  {
+    "flairtext": "Rhea (Halloween)",
+    "game": "16",
+    "image": "1166_1030.png",
+    "class": "t37",
+    "sortcode": 1030
   }
 ]
