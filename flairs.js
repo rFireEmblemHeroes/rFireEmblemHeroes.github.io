@@ -5710,5 +5710,103 @@ let data = [
     "image": "1166_1030.png",
     "class": "t37",
     "sortcode": 1030
+  },
+  {
+    "flairtext": "Wolf",
+    "game": "1",
+    "image": "110_30110.png",
+    "class": "t47",
+    "sortcode": 30110
+  },
+    {
+    "flairtext": "Sedgar",
+    "game": "1",
+    "image": "110_30210.png",
+    "class": "t48",
+    "sortcode": 30210
+  },
+    {
+    "flairtext": "Roshea",
+    "game": "1",
+    "image": "110_30310.png",
+    "class": "t49",
+    "sortcode": 30310
+  },
+    {
+    "flairtext": "Vyland",
+    "game": "1",
+    "image": "110_30410.png",
+    "class": "t50",
+    "sortcode": 30410
+  },
+    {
+    "flairtext": "Malice",
+    "game": "1",
+    "image": "110_44110.png",
+    "class": "t51",
+    "sortcode": 44110
+  },
+  {
+    "flairtext": "Corrin (Female)(Ninja)",
+    "game": "14",
+    "image": "1141_2060.png",
+    "class": "t53",
+    "sortcode": 2060
+  },
+  {
+    "flairtext": "Corrin (Male)(Ninja)",
+    "game": "14",
+    "image": "1141_1050.png",
+    "class": "t52",
+    "sortcode": 1050
+  },
+    {
+    "flairtext": "Elise (Ninja)",
+    "game": "142",
+    "image": "1143_12040.png",
+    "class": "t55",
+    "sortcode": 12040
+  },
+    {
+    "flairtext": "Shinon (Ninja)",
+    "game": "91",
+    "image": "191_9020.png",
+    "class": "t60",
+    "sortcode": 9020
+  },
+    {
+    "flairtext": "Igrene (Ninja)",
+    "game": "6",
+    "image": "160_28020.png",
+    "class": "t57",
+    "sortcode": 28020
+  },
+    {
+    "flairtext": "Shamir (Ninja)",
+    "game": "16",
+    "image": "1166_5020.png",
+    "class": "t56",
+    "sortcode": 5020
+  },
+    {
+    "flairtext": "Fae (Legendary)",
+    "game": "6",
+    "image": "160_30040.png",
+    "class": "t58",
+    "sortcode": 30040
+  },
+      {
+    "flairtext": "Serra (Resplendent)",
+    "game": "7",
+    "image": "170_8020.png",
+    "class": "t59",
+    "sortcode": 8020
+  },
+  {
+    "flairtext": "Kagero (Resplendent)",
+    "game": "141",
+    "image": "1142_4040.png",
+    "class": "t54",
+    "sortcode": 4040
   }
 ]
