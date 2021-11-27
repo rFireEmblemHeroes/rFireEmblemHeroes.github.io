@@ -5569,7 +5569,7 @@ let data = [
     "game": "96",
     "image": "192_20020.png",
     "class": "q39",
-    "sortcode": 14010
+    "sortcode": 20020
   },
   {
     "flairtext": "Jorge",
@@ -5808,5 +5808,61 @@ let data = [
     "image": "1142_4040.png",
     "class": "t54",
     "sortcode": 4040
+  },
+
+  {
+    "flairtext": "Laegjarn (Ascendant)",
+    "game": "3",
+    "image": "3_3040.png",
+    "class": "t63",
+    "sortcode": 3040
+  },
+
+    {
+    "flairtext": "Ryoma (Resplendent)",
+    "game": "141",
+    "image": "1142_2011.png",
+    "class": "t65",
+    "sortcode": 2011
+  },
+
+    {
+    "flairtext": "Astrid",
+    "game": "93",
+    "image": "1102_5310.png",
+    "class": "t61",
+    "sortcode": 11310
+  },
+
+    {
+    "flairtext": "Tanith",
+    "game": "93",
+    "image": "1102_4010.png",
+    "class": "t66",
+    "sortcode": 10010
+  },
+
+    {
+    "flairtext": "Volke",
+    "game": "94",
+    "image": "192_18010.png",
+    "class": "t67",
+    "sortcode": 18010
+  },
+
+    {
+    "flairtext": "Bertram",
+    "game": "94",
+    "image": "192_19010.png",
+    "class": "t62",
+    "sortcode": 19010
+  },
+
+    {
+    "flairtext": "Marcia",
+    "game": "93",
+    "image": "1102_5110.png",
+    "class": "t64",
+    "sortcode": 11110
   }
 ]
