@@ -10,36 +10,37 @@ let classguide = {
 	8 : "alfonse",
 	9 : "alfonse",
 	10 : "alfonse",
-	11 : "marth",
-	12 : "alm",
-	13 : "seliph",
+	11 : "alfonse",
+	12 : "marth",
+	13 : "alm",
 	14 : "seliph",
 	15 : "seliph",
-	16 : "leif",
-	17 : "roy",
-	18 : "lyn",
-	19 : "ephraim",
-	20 : "ike",
+	16 : "seliph",
+	17 : "leif",
+	18 : "roy",
+	19 : "lyn",
+	20 : "ephraim",
 	21 : "ike",
-	22 : "micaiah",
+	22 : "ike",
 	23 : "micaiah",
 	24 : "micaiah",
 	25 : "micaiah",
-	26 : "chrom",
+	26 : "micaiah",
 	27 : "chrom",
-	28 : "corrin",
+	28 : "chrom",
 	29 : "corrin",
 	30 : "corrin",
 	31 : "corrin",
-	32 : "sothis",
+	32 : "corrin",
 	33 : "sothis",
 	34 : "sothis",
 	35 : "sothis",
 	36 : "sothis",
 	37 : "sothis",
 	38 : "sothis",
-	39 : "itsuki",
-	40 : "all"
+	39 : "sothis",
+	40 : "itsuki",
+	41 : "all"
 }
 
 function sortByKey(array, key) {
@@ -104,7 +105,7 @@ function generate(){
 	let arr = [];
 
 
-	for (let i = 0; i < 41; i++){
+	for (let i = 0; i < 42; i++){
 		arr[i] = []
 	}
 
@@ -133,76 +134,78 @@ function generate(){
 			break;
 			case '8': arr[8].push(object)
 			break;
-			case '80': arr[9].push(object)
+			case '9': arr[9].push(object)
 			break;
-			case '99': arr[10].push(object)
+			case '80': arr[10].push(object)
 			break;
-			case '110': arr[11].push(object)
+			case '99': arr[11].push(object)
 			break;
-			case '120': arr[12].push(object)
+			case '110': arr[12].push(object)
 			break;
-			case '141': arr[13].push(object)
+			case '120': arr[13].push(object)
 			break;
-			case '142': arr[14].push(object)
+			case '141': arr[14].push(object)
 			break;
-			case '143': arr[15].push(object)
+			case '142': arr[15].push(object)
 			break;
-			case '150': arr[16].push(object)
+			case '143': arr[16].push(object)
 			break;
-			case '160': arr[17].push(object)
+			case '150': arr[17].push(object)
 			break;
-			case '170': arr[18].push(object)
+			case '160': arr[18].push(object)
 			break;
-			case '180': arr[19].push(object)
+			case '170': arr[19].push(object)
 			break;
-			case '191': arr[20].push(object)
+			case '180': arr[20].push(object)
 			break;
-			case '192': arr[21].push(object)
+			case '191': arr[21].push(object)
 			break;
-			case '1101': arr[22].push(object)
+			case '192': arr[22].push(object)
 			break;
-			case '1102': arr[23].push(object)
+			case '1101': arr[23].push(object)
 			break;
-			case '1103': arr[24].push(object)
+			case '1102': arr[24].push(object)
 			break;
-			case '1104': arr[25].push(object)
+			case '1103': arr[25].push(object)
 			break;
-			case '1131': arr[26].push(object)
+			case '1104': arr[26].push(object)
 			break;
-			case '1132': arr[27].push(object)
+			case '1131': arr[27].push(object)
 			break;
-			case '1141': arr[28].push(object)
+			case '1132': arr[28].push(object)
 			break;
-			case '1142': arr[29].push(object)
+			case '1141': arr[29].push(object)
 			break;
-			case '1143': arr[30].push(object)
+			case '1142': arr[30].push(object)
 			break;
-			case '1144': arr[31].push(object)
+			case '1143': arr[31].push(object)
 			break;
-			case '1161': arr[32].push(object)
+			case '1144': arr[32].push(object)
 			break;
-			case '1162': arr[33].push(object)
+			case '1161': arr[33].push(object)
 			break;
-			case '1163': arr[34].push(object)
+			case '1162': arr[34].push(object)
 			break;
-			case '1164': arr[35].push(object)
+			case '1163': arr[35].push(object)
 			break;
-			case '1165': arr[36].push(object)
+			case '1164': arr[36].push(object)
 			break;
-			case '1166': arr[37].push(object)
+			case '1165': arr[37].push(object)
 			break;
-			case '1167': arr[38].push(object)
+			case '1166': arr[38].push(object)
 			break;
-			case '1171': arr[39].push(object)
+			case '1167': arr[39].push(object)
 			break;
-			case '9999': arr[40].push(object)
+			case '1171': arr[40].push(object)
+			break;
+			case '9999': arr[41].push(object)
 			break;
 		}
 	}
 
 	let tempStr = ""
 
-	for (let i = 0; i < 41; i++){
+	for (let i = 0; i < 42; i++){
 
 		let classID = classguide[i]
 

@@ -5864,5 +5864,96 @@ let data = [
     "image": "1102_5110.png",
     "class": "t64",
     "sortcode": 11110
+  },
+
+
+    {
+    "flairtext": "Ash",
+    "game": "93",
+    "image": "8_2010.png",
+    "class": "t68",
+    "sortcode": 2010
+  },
+
+
+    {
+    "flairtext": "Elm",
+    "game": "93",
+    "image": "9_2010.png",
+    "class": "t70",
+    "sortcode": 2010
+  },
+
+
+    {
+    "flairtext": "Letizia",
+    "game": "93",
+    "image": "9_3010.png",
+    "class": "t72",
+    "sortcode": 3010
+  },
+
+
+    {
+    "flairtext": "Priam",
+    "game": "93",
+    "image": "1131_29010.png",
+    "class": "t75",
+    "sortcode": 29010
+  },
+
+      {
+    "flairtext": "Basilio",
+    "game": "93",
+    "image": "1131_13110.png",
+    "class": "t69",
+    "sortcode": 13110
+  },
+
+      {
+    "flairtext": "Flavia",
+    "game": "93",
+    "image": "1131_13210.png",
+    "class": "t71",
+    "sortcode": 13210
+  },
+
+      {
+    "flairtext": "Miriel",
+    "game": "93",
+    "image": "1131_11210.png",
+    "class": "t73",
+    "sortcode": 11210
+  },
+
+        {
+    "flairtext": "Yen'fay",
+    "game": "93",
+    "image": "1131_21110.png",
+    "class": "t76",
+    "sortcode": 21110
+  },
+
+          {
+    "flairtext": "Nowi (Resplendent)",
+    "game": "93",
+    "image": "1131_26011.png",
+    "class": "t74",
+    "sortcode": 26011
   }
+
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
