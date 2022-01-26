@@ -5732,11 +5732,60 @@ let data = [
     "sortcode": 8010
   },
 
-        {
+  {
     "flairtext": "Riev",
     "image": "180_33010.png",
     "class": "t96",
     "sortcode": 33010
+  },
+
+  {
+    "flairtext": "Azura (Hatari)",
+    "image": "1141_3070.png",
+    "class": "t97",
+    "sortcode": 3070
+  },
+
+  {
+    "flairtext": "Leanne (Hatari)",
+    "image": "1103_15020.png",
+    "class": "t101",
+    "sortcode": 15020
+  },
+
+  {
+    "flairtext": "Nailah (Hatari)",
+    "image": "1103_20030.png",
+    "class": "t102",
+    "sortcode": 20030
+  },
+
+  {
+    "flairtext": "Deen (Hatari)",
+    "image": "120_27120.png",
+    "class": "t98",
+    "sortcode": 27120
+  },
+
+  {
+    "flairtext": "Karla (Hatari)",
+    "image": "170_24020.png",
+    "class": "t100",
+    "sortcode": 24020
+  },
+
+  {
+    "flairtext": "Xane (Hatari)",
+    "image": "110_35030.png",
+    "class": "t103",
+    "sortcode": 35030
+  },
+
+  {
+    "flairtext": "Florina (Resplendent)",
+    "image": "170_19030.png",
+    "class": "t99",
+    "sortcode": 19030
   }
 
 ]
