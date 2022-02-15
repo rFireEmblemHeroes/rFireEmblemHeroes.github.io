@@ -1,4 +1,4 @@
-let classguide = {
+const classguide = {
 	0 : "alfonse",
 	1 : "alfonse",
 	2 : "alfonse",
@@ -43,6 +43,10 @@ let classguide = {
 	41 : "all"
 }
 
+//const SORT_KEYS = ['alfonse', 'marth', 'alm', 'seliph', 'leif', 'roy', 'lyn', 'ephraim', 'ike', 'micaiah', 'chrom', 'corrin', 'sothis', 'itsuki', 'all'];
+
+const NUMBER_OF_ARRAYS = 42
+
 function sortByKey(array, key) {
 return array.sort(function(a, b) {
     var x = a[key]; var y = b[key];
@@ -52,9 +56,11 @@ return array.sort(function(a, b) {
 
 function filter(key){
 
-	let sortkeys = ['alfonse', 'marth', 'alm', 'seliph', 'leif', 'roy', 'lyn', 'ephraim', 'ike', 'micaiah', 'chrom', 'corrin', 'sothis', 'itsuki', 'all'];
 
+	let sortkeys = ['alfonse', 'marth', 'alm', 'seliph', 'leif', 'roy', 'lyn', 'ephraim', 'ike', 'micaiah', 'chrom', 'corrin', 'sothis', 'itsuki', 'all'];
 	let index = sortkeys.indexOf(key)
+
+
 
 	sortkeys.splice(index, 1);
 
@@ -105,7 +111,7 @@ function generate(){
 	let arr = [];
 
 
-	for (let i = 0; i < 42; i++){
+	for (let i = 0; i < NUMBER_OF_ARRAYS; i++){
 		arr[i] = []
 	}
 
@@ -114,7 +120,7 @@ function generate(){
 	for (let i = 0; i < flairs.length; i++){
 		let object = flairs[i]
 		let gamecode = object.image.substring(0, object.image.indexOf('_'))
-		console.log(gamecode)
+		object.sortcode = parseInt(object.image.substring(object.image.indexOf('_')+1))
 		switch(gamecode){
 			case '00': arr[0].push(object)
 			break;
@@ -205,7 +211,7 @@ function generate(){
 
 	let tempStr = ""
 
-	for (let i = 0; i < 42; i++){
+	for (let i = 0; i < NUMBER_OF_ARRAYS; i++){
 
 		let classID = classguide[i]
 
