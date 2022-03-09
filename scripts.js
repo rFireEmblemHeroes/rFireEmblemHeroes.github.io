@@ -47,21 +47,42 @@ const classguide = {
 
 const NUMBER_OF_ARRAYS = 42
 
-function sortByKey(array, key) {
-return array.sort(function(a, b) {
-    var x = a[key]; var y = b[key];
-    return ((x < y) ? -1 : ((x > y) ? 1 : 0));
-});
-}
+ function selectionSort(arr){
+ 	let arr2 = [];
+ 	for (let i = 0; i < arr.length; i++){
+ 		arr2[i] = parseInt(data[arr[i]].substring(data[arr[i]].indexOf('_')+1))
+ 		
+ 	}
+
+    var minIdx, temp, temp2;
+    let len = arr.length;
+    for(var i = 0; i < len; i++){
+      minIdx = i;
+      for(var  j = i+1; j<len; j++){
+        if(arr2[j]<arr2[minIdx]){
+          minIdx = j;
+        }
+      }
+
+      temp = arr[i];
+      arr[i] = arr[minIdx];     
+      arr[minIdx] = temp;
+      
+
+      temp2 = arr2[i]
+      arr2[i] = arr2[minIdx];
+      arr2[minIdx] = temp2;
+
+    }
+ 
+    return arr;
+  }
 
 function filter(key){
 
 
 	let sortkeys = ['alfonse', 'marth', 'alm', 'seliph', 'leif', 'roy', 'lyn', 'ephraim', 'ike', 'micaiah', 'chrom', 'corrin', 'sothis', 'itsuki', 'all'];
 	let index = sortkeys.indexOf(key)
-
-
-
 	sortkeys.splice(index, 1);
 
 	for (let j = 0; j < sortkeys.length; j++){
@@ -117,10 +138,11 @@ function generate(){
 
 	let keys = Object.keys(flairs)
 
-	for (let i = 0; i < flairs.length; i++){
-		let object = flairs[i]
-		let gamecode = object.image.substring(0, object.image.indexOf('_'))
-		object.sortcode = parseInt(object.image.substring(object.image.indexOf('_')+1))
+	for (let i = 0; i < keys.length; i++){
+		let img = flairs[keys[i]]
+		let gamecode = img.substring(0, img.indexOf('_'))
+		let object = keys[i]
+		//object.sortcode = parseInt(object.image.substring(object.image.indexOf('_')+1))
 		switch(gamecode){
 			case '00': arr[0].push(object)
 			break;
@@ -215,11 +237,11 @@ function generate(){
 
 		let classID = classguide[i]
 
-		arr[i] = sortByKey(arr[i], 'sortcode')
+		arr[i] = selectionSort(arr[i])
 		for (let j = 0; j < arr[i].length; j++){
-			tempStr += `<a href="https://www.reddit.com/message/compose/?to=Sothis_Bot&subject=Request%20a%20Flair&message=${arr[i][j].class}"
+			tempStr += `<a href="https://www.reddit.com/message/compose/?to=Sothis_Bot&subject=Request%20a%20Flair&message=${arr[i][j]}"
 		target="_blank" class="${classID}">
-		<img src="./images/${arr[i][j].image}" alt="" /></a>`
+		<img src="./images/${data[arr[i][j]]}" alt="" /></a>`
 		}
 	}
 
