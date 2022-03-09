@@ -58,7 +58,7 @@ let data =  {
   ":Astrid:": "1102_5310.png",
   ":Athena:": "110_44010.png",
   ":Aversa:": "1131_19010.png",
-  ":GAxeArmor:": "99_1003.png",
+  ":GArmor:": "99_1003.png",
   ":Ayra:": "141_11010.png",
   ":Azama:": "1142_6010.png",
   ":Azelle:": "141_6010.png",
