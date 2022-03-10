@@ -13,35 +13,35 @@ const classguide = {
   89: "alfonse",
   99: "alfonse",
   110: "marth",
-   119: "marth",
+  
    120: "alm",
-   129: "alm",
+
    141: "seliph",
    142: "seliph",
    143: "seliph",
-   149: "seliph",
+  
    150: "leif",
-   159: "leif",
+
 
    160: "roy",
-   169: "roy",
+ 
 
    170: "lyn",
-   179: "lyn",
+
 
     180: "ephraim",
-   189: "ephraim",
+  
 
 191: "ike",
 192: "ike",
 193: "ike",
-199: "ike",
+
 
 1101: "micaiah",
 1102: "micaiah",
 1103: "micaiah",
 1104: "micaiah",
-1109: "micaiah",
+
 
 1131: "chrom",
 1132: "chrom",
@@ -51,7 +51,7 @@ const classguide = {
 1142: "corrin",
 1143: "corrin",
 1144: "corrin",
-1149: "corrin",
+
 
 1161: "sothis",
 1162: "sothis",
@@ -60,9 +60,10 @@ const classguide = {
 1165: "sothis",
 1166: "sothis",
 1167: "sothis",
-1169: "sothis",
+
 1171: "itsuki",
-9999: "all",
+8888: "misc",
+9999: "misc"
 
 }
 
@@ -96,7 +97,7 @@ function selectionSort(arr) {
 }
 
 function filter(key) {
-  let sortkeys = ['alfonse', 'marth', 'alm', 'seliph', 'leif', 'roy', 'lyn', 'ephraim', 'ike', 'micaiah', 'chrom', 'corrin', 'sothis', 'itsuki', 'all'];
+  let sortkeys = ['alfonse', 'marth', 'alm', 'seliph', 'leif', 'roy', 'lyn', 'ephraim', 'ike', 'micaiah', 'chrom', 'corrin', 'sothis', 'itsuki', 'misc', 'all'];
   let index = sortkeys.indexOf(key)
   sortkeys.splice(index, 1);
   for (let j = 0; j < sortkeys.length; j++) {
@@ -120,7 +121,7 @@ function filter(key) {
 }
 
 function showAll() {
-  let sortkeys = ['alfonse', 'marth', 'alm', 'seliph', 'leif', 'roy', 'lyn', 'ephraim', 'ike', 'micaiah', 'chrom', 'corrin', 'sothis', 'itsuki', 'all'];
+  let sortkeys = ['alfonse', 'marth', 'alm', 'seliph', 'leif', 'roy', 'lyn', 'ephraim', 'ike', 'micaiah', 'chrom', 'corrin', 'sothis', 'itsuki', 'misc', 'all'];
   for (let j = 0; j < sortkeys.length; j++) {
     let nodes = document.getElementsByClassName(`${sortkeys[j]}`)
     for (let i = 0; i < nodes.length; i++) {
@@ -145,7 +146,7 @@ async function generate() {
   for (let i = 0; i < keys.length; i++) {
     let img = flairs[keys[i]]
     let gamecode = parseInt(img.substring(0, img.indexOf('_')))
-    console.log(gamecode)
+   
     let object = keys[i]
 
     if (!arrays.hasOwnProperty(gamecode)) {
@@ -160,7 +161,7 @@ async function generate() {
   arrkeys.sort(function(a, b) {
   return a - b;
 });
-  console.log(arrkeys)
+ 
 
   for (let i = 0; i < arrkeys.length; i++) {
     let classID = classguide[arrkeys[i]]
