@@ -9,6 +9,55 @@ body {
 
 }
 
+
+.divider{
+    width:7px;
+
+    height:90px;
+   display: inline-block;
+}
+
+
+
+#clear {
+	left: 50px;
+	position: fixed;
+}
+
+#go {
+	right: 50px;
+	position: fixed;
+}
+
+#portraitBox img {
+	width:  90px;
+	height: 90px;
+	vertical-align: middle;
+	padding: 7px;
+}
+
+#portraitBox{
+
+	vertical-align: middle;
+	margin-top: 20px;
+
+}
+
+#selector {
+	background-image: url("./blank.png");
+	width:  1126px;
+	height: 130px;
+	position: fixed;
+	text-align: center;
+	bottom: 0;
+	background-position: center;
+	background-size: 1126px 130px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 50%;
+	margin-left: -563px; /* Half of the width */
+}
+
 a {
 	text-decoration: none;
 	display: inline-block;
@@ -26,10 +75,23 @@ button img{
 
 }
 
-a img {
+#main {
+	text-align: center;
+}
+
+#main button  {
+
+
+	display:inline-block;
+	padding: 4px;
+
+}
+
+#main button img {
 	height: 90px;
 	width: 90px;
-	padding: 7px;
+	
+	
 }
 
 @-ms-viewport {

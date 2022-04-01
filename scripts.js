@@ -13,64 +13,44 @@ const classguide = {
   89: "alfonse",
   99: "alfonse",
   110: "marth",
-  
-   120: "alm",
-
-   141: "seliph",
-   142: "seliph",
-   143: "seliph",
-  
-   150: "leif",
-
-
-   160: "roy",
- 
-
-   170: "lyn",
-
-
-    180: "ephraim",
-  
-
-191: "ike",
-192: "ike",
-193: "ike",
-
-
-1101: "micaiah",
-1102: "micaiah",
-1103: "micaiah",
-1104: "micaiah",
-
-
-1131: "chrom",
-1132: "chrom",
-1139: "chrom",
-
-1141: "corrin",
-1142: "corrin",
-1143: "corrin",
-1144: "corrin",
-
-
-1161: "sothis",
-1162: "sothis",
-1163: "sothis",
-1164: "sothis",
-1165: "sothis",
-1166: "sothis",
-1167: "sothis",
-
-1171: "itsuki",
-8888: "misc",
-9999: "misc"
-
+  120: "alm",
+  141: "seliph",
+  142: "seliph",
+  143: "seliph",
+  150: "leif",
+  160: "roy",
+  170: "lyn",
+  180: "ephraim",
+  191: "ike",
+  192: "ike",
+  193: "ike",
+  1101: "micaiah",
+  1102: "micaiah",
+  1103: "micaiah",
+  1104: "micaiah",
+  1131: "chrom",
+  1132: "chrom",
+  1139: "chrom",
+  1141: "corrin",
+  1142: "corrin",
+  1143: "corrin",
+  1144: "corrin",
+  1161: "sothis",
+  1162: "sothis",
+  1163: "sothis",
+  1164: "sothis",
+  1165: "sothis",
+  1166: "sothis",
+  1167: "sothis",
+  1171: "itsuki",
+  8888: "misc",
+  9999: "misc"
 }
-
 arrkeys = []
 //const SORT_KEYS = ['alfonse', 'marth', 'alm', 'seliph', 'leif', 'roy', 'lyn', 'ephraim', 'ike', 'micaiah', 'chrom', 'corrin', 'sothis', 'itsuki', 'all'];
 const NUMBER_OF_ARRAYS = 42
 let arrays = {};
+let selected = [];
 
 function selectionSort(arr) {
   let arr2 = [];
@@ -95,6 +75,8 @@ function selectionSort(arr) {
   }
   return arr;
 }
+
+
 
 function filter(key) {
   let sortkeys = ['alfonse', 'marth', 'alm', 'seliph', 'leif', 'roy', 'lyn', 'ephraim', 'ike', 'micaiah', 'chrom', 'corrin', 'sothis', 'itsuki', 'misc', 'all'];
@@ -134,43 +116,88 @@ function showAll() {
   }
   document.getElementById('allimg').src = `sortIcons/allGlow.png`
 }
-
-
 async function generate() {
-
   let flairs = data;
   let arr = [];
-
   let keys = Object.keys(flairs)
-
   for (let i = 0; i < keys.length; i++) {
     let img = flairs[keys[i]]
     let gamecode = parseInt(img.substring(0, img.indexOf('_')))
-   
     let object = keys[i]
-
     if (!arrays.hasOwnProperty(gamecode)) {
       arrays[gamecode] = [];
       arrkeys.push(gamecode)
     }
-
     arrays[gamecode].push(object)
   }
-
   let tempStr = ""
   arrkeys.sort(function(a, b) {
-  return a - b;
-});
- 
-
+    return a - b;
+  });
   for (let i = 0; i < arrkeys.length; i++) {
     let classID = classguide[arrkeys[i]]
     let arr = arrays[arrkeys[i]]
     arr = selectionSort(arr)
-
     for (let j = 0; j < arr.length; j++) {
-      tempStr += `<a href="https://www.reddit.com/message/compose/?to=Sothis_Bot&subject=Request%20a%20Flair&message=${arr[j]}" target="_blank" class="${classID}"> <img src="./images/${data[arr[j]]}" alt="" /></a>`
+  
+      tempStr += `<button class="${classID}" onclick="addToBar('${arr[j]}')"> <img src="./images/${data[arr[j]]}"> </button>`
     }
   }
   document.getElementById("main").innerHTML = tempStr
 }
+
+function addToBar(flaircode){
+ 
+
+  if (selected.length == 3){
+    window.alert('You can only select up to 3 characters.')
+    return;
+  }
+
+  else {
+    selected.push(flaircode)
+     console.log(selected)
+    let tempstr = "<button id='clear' onclick='clearSelects()'><img src=\"./clear.png\"></button>"
+    for (let i = 0; i < selected.length; i++) {
+      tempstr += `<img src="./images/${data[selected[i]]}">`
+    }
+
+    tempstr += `<button id='go' onclick='request()'> <img src="./go.png"> </button>`
+
+    document.getElementById("portraitBox").innerHTML = tempstr
+  }
+
+
+}
+
+function clearSelects(){
+  console.log('start')
+  selected = [];
+
+  let tempstr = "<button id='clear' onclick='clearSelects()'><img src=\"./clear.png\"></button>"
+   
+    tempstr += `<button id='go' onclick='request()'> <img src="./go.png"> </button>`
+
+    document.getElementById("portraitBox").innerHTML = tempstr
+
+    console.log(selected)
+}
+
+function request(){
+  let url = `https://www.reddit.com/message/compose/?to=Sothis_Bot&subject=Request%20a%20Flair&message=`
+  for (let i = 0; i < selected.length; i++) {
+    url += selected[i]
+    url += '%0a'
+  }
+  url = url.slice(0, -3)
+
+  console.log(url)
+
+  window.open(url,'_blank');
+
+
+
+
+
+}
+

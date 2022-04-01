@@ -2,6 +2,7 @@ let data = {
 
 
   ":Mareeta3:" : "150_5030.png",
+  ":Nanna3:" : "150_2030.png",
 ":Ophelia2:" : "1144_11020.png",
 ":Salem:" : "150_15210.png",
 ":Karin:" : "150_12110.png",
