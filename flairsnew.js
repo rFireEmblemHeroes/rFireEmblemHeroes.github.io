@@ -1,14 +1,18 @@
 let data = {
-
-
-  ":Mareeta3:" : "150_5030.png",
-  ":Nanna3:" : "150_2030.png",
-":Ophelia2:" : "1144_11020.png",
-":Salem:" : "150_15210.png",
-":Karin:" : "150_12110.png",
-":Galzus:" : "150_16110.png",
-":August:" : "150_15110.png",
-
+  ":Soren3:": "191_3030.png",
+  ":Ike9:": "191_1080.png",
+  ":Mist3:": "191_4030.png",
+  ":Ilyana3:": "1101_9030.png",
+  ":Mia4:": "191_12040.png",
+  ":Lachesis3:": "141_18030.png",
+  ":Boyd2:": "191_7020.png",
+  ":Mareeta3:": "150_5030.png",
+  ":Nanna3:": "150_2030.png",
+  ":Ophelia2:": "1144_11020.png",
+  ":Salem:": "150_15210.png",
+  ":Karin:": "150_12110.png",
+  ":Galzus:": "150_16110.png",
+  ":August:": "150_15110.png",
   ":AltinaVG:": "8888_10010.png",
   ":Azura3VG:": "8888_14140.png",
   ":BylethF2VG:": "8888_16110.png",
