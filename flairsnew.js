@@ -1,4 +1,13 @@
 let data = {
+
+  ":AmeliaVG:" : "8888_8030.png",
+  ":Ishtar4:" : "142_1303014.png",
+  ":Scathach:" : "142_7010.png",
+  ":Arthur_FE4:" : "142_11010.png",
+  ":Hilda_FE4:" : "141_21010.png",
+  ":Saber2:" : "120_21020.png",
+  ":Tine:" : "142_11110.png",
+
   ":Soren3:": "191_3030.png",
   ":Ike9:": "191_1080.png",
   ":Mist3:": "191_4030.png",
