@@ -1,7 +1,7 @@
 let data = {
 
   ":AmeliaVG:" : "8888_8030.png",
-  ":Ishtar4:" : "142_1303014.png",
+  ":Ishtar4:" : "142_13030.png",
   ":Scathach:" : "142_7010.png",
   ":Arthur_FE4:" : "142_11010.png",
   ":Hilda_FE4:" : "141_21010.png",
