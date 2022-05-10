@@ -4,7 +4,7 @@ let data = {
   ":Muarim2:" : "1103_21020.png",
   ":FrederickVG:" : "8888_13021.png",
   ":Rhea4:" : "1166_1040.png",
-  ":Ninian4:" : "170_404000.png",
+  ":Ninian4:" : "170_4040.png",
   ":Gustav3:" : "00_4030.png",
   ":Faye3:" : "120_6030.png",
   ":Medeus:" : "110_50010.png",
