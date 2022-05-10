@@ -1,5 +1,14 @@
 let data = {
 
+  "Lilith2::" : "1141_7020.png",
+  ":Muarim2:" : "1103_21020.png",
+  ":FrederickVG:" : "8888_13021.png",
+  ":Rhea4:" : "1166_1040.png",
+  ":Ninian4:" : "170_404000.png",
+  ":Gustav3:" : "00_4030.png",
+  ":Faye3:" : "120_6030.png",
+  ":Medeus:" : "110_50010.png",
+
   ":AmeliaVG:" : "8888_8030.png",
   ":Ishtar4:" : "142_13030.png",
   ":Scathach:" : "142_7010.png",
