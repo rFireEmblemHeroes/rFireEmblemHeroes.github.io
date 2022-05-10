@@ -1,6 +1,6 @@
 let data = {
 
-  "Lilith2::" : "1141_7020.png",
+  ":Lilith2:" : "1141_7020.png",
   ":Muarim2:" : "1103_21020.png",
   ":FrederickVG:" : "8888_13021.png",
   ":Rhea4:" : "1166_1040.png",
