@@ -9,6 +9,12 @@ let data = {
   ":Faye3:" : "120_6030.png",
   ":Medeus:" : "110_50010.png",
 
+  ":ChromM:" : "1171_1011.png",
+  ":CaedaM:" : "1171_2011.png",
+  ":TharjaM:" : "1171_3011.png",
+  ":VirionM:" : "1171_4011.png",
+  ":DraugM:" : "1171_5011.png",
+
   ":AmeliaVG:" : "8888_8030.png",
   ":Ishtar4:" : "142_13030.png",
   ":Scathach:" : "142_7010.png",
