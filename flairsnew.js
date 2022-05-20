@@ -9,6 +9,13 @@ let data = {
   ":Faye3:" : "120_6030.png",
   ":Medeus:" : "110_50010.png",
 
+  ":Roy6:" : "160_1060.png",
+  ":Lilina7:" : "160_2070.png",
+  ":Larum2:" : "160_22020.png",
+  ":Cecilia3:" : "160_27030.png",
+  ":Sophia4:" : "160_29040.png",
+  ":Eliwood6:" : "170_1050.png",
+
   ":ChromM:" : "1171_1011.png",
   ":CaedaM:" : "1171_2011.png",
   ":TharjaM:" : "1171_3011.png",
