@@ -8,7 +8,7 @@ let data = {
   ":Gustav3:" : "00_4030.png",
   ":Faye3:" : "120_6030.png",
   ":Medeus:" : "110_50010.png",
-  ":Gaius3" : "1131_13030.png",
+  ":Gaius3:" : "1131_13030.png",
 
   ":Roy6:" : "160_1060.png",
   ":Lilina7:" : "160_2070.png",
