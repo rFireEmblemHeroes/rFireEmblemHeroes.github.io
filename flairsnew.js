@@ -17,7 +17,7 @@ let data = {
   ":Kent:" : "170_5210.png",
   ":Guy:" : "170_5310.png",
   ":Florina4:" : "170_19040.png",
-  ":Effie:" : "1143_13020.png",
+  ":Effie2:" : "1143_13020.png",
   ":Limstella:" : "170_26110.png",
 
 
