@@ -10,6 +10,17 @@ let data = {
   ":Medeus:" : "110_50010.png",
   ":Gaius3:" : "1131_13030.png",
 
+  ":Embla:" : "9_1010.png",
+  ":Myrrh4:" : "180_26040.png",
+  ":Fafnir3:" : "6_3020.png",
+  ":Sain:" : "170_5110.png",
+  ":Kent:" : "170_5210.png",
+  ":Guy:" : "170_5310.png",
+  ":Florina4:" : "170_19040.png",
+  ":Effie:" : "1143_13020.png",
+  ":Limstella:" : "170_26110.png",
+
+
   ":Roy6:" : "160_1060.png",
   ":Lilina7:" : "160_2070.png",
   ":Larum2:" : "160_22020.png",
