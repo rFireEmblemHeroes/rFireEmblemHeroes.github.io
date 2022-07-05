@@ -18,6 +18,15 @@ let data = {
   ":Effie2:": "1143_13020.png",
   ":Limstella:": "170_26110.png",
 
+  ":Nifl2:": "2_1020.png",
+  ":Eirika8:": "180_1080.png",
+  ":Lyon5:": "180_3050.png",
+  ":Xander6:": "1143_3060.png",
+  ":Loki3:": "80_1030.png",
+  ":Thorr2:": "80_2020.png",
+  ":Seth2:": "180_10020.png",
+  ":Karla3:": "170_24030.png",
+
   ":Edelgard5:": "1162_1050.png",
   ":Dimitri5:": "1163_1050.png",
   ":Claude4:": "1164_1040.png",
@@ -27,7 +36,6 @@ let data = {
   ":Matthew2:": "170_6020.png",
   ":Askr:": "8_1010.png",
   ":RheaVG:": "8888_16510.png",
-
   ":Roy6:": "160_1060.png",
   ":Lilina7:": "160_2070.png",
   ":Larum2:": "160_22020.png",
