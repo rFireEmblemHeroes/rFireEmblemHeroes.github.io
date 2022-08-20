@@ -1,4 +1,34 @@
 let data = {
+
+
+
+  ":Veronica6:" : "1_1060.png",
+  ":Ymir:" : "4_7010.png",
+  ":Rickard2:" : "110_28120.png",
+  ":Celica7:" : "120_2060.png",
+  ":Est5:" : "120_26010.png",
+  ":Kamui:" : "120_23110.png",
+  ":BB:" : "120_32110.png",
+  ":Atlas:" : "120_27210.png",
+  ":Seliph5:" : "142_1050.png",
+  ":Cath2:" : "160_9120.png",
+  ":Leila2:" : "170_7020.png",
+  ":Larachel4:" : "180_6040.png",
+  ":Sothe4:" : "1101_2040.png",
+  ":Lonqu2:" : "1131_14020.png",
+  ":TikiA3:" : "1131_22030.png",
+  ":Chrom8:" : "1131_1080.png",
+  ":CorrinM6:" : "1141_1060.png",
+  ":Nina2:" : "1144_13020.png",
+  ":Kagero5:" : "1142_4050.png",
+  ":BylethF4:" : "1161_2040.png",
+  ":Jeralt:" : "1161_3110.png",
+  ":Dimitri4VG:" : "8888_16211.png",
+  ":ValterVG:" : "8888_8040.png",
+
+
+
+
   ":Lilith2:": "1141_7020.png",
   ":Muarim2:": "1103_21020.png",
   ":FrederickVG:": "8888_13021.png",
