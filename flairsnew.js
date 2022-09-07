@@ -5,7 +5,7 @@ let data = {
   ":Celica7:": "120_2060.png",
   ":Est5:": "120_26010.png",
   ":Deirdre4:": "141_2030.png",
-  ":Muspell2:": "1_1020.png",
+  ":Muspell2:": "3_1020.png",
   ":Ephraim7:": "180_2070.png",
   ":Lif3:": "4_3030.png",
   ":Peony3:": "5_1030.png",
