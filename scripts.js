@@ -149,8 +149,8 @@ async function generate() {
 function addToBar(flaircode){
  
 
-  if (selected.length == 3){
-    window.alert('You can only select up to 3 characters.')
+  if (selected.length == 4){
+    window.alert('You can only select up to 4 characters.')
     return;
   }
 
