@@ -12,7 +12,6 @@ body {
 
 .divider{
     width:7px;
-
     height:90px;
    display: inline-block;
 }
@@ -44,7 +43,7 @@ body {
 }
 
 #selector {
-	background-image: url("./blank.png");
+	background-image: url("./assets/selectionBar.png");
 	width:  1126px;
 	height: 130px;
 	position: fixed;

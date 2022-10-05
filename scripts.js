@@ -157,12 +157,12 @@ function addToBar(flaircode){
   else {
     selected.push(flaircode)
      console.log(selected)
-    let tempstr = "<button id='clear' onclick='clearSelects()'><img src=\"./clear.png\"></button>"
+    let tempstr = "<button id='clear' onclick='clearSelects()'><img src=\"./assets/clear.png\"></button>"
     for (let i = 0; i < selected.length; i++) {
       tempstr += `<img src="./images/${data[selected[i]]}">`
     }
 
-    tempstr += `<button id='go' onclick='request()'> <img src="./go.png"> </button>`
+    tempstr += `<button id='go' onclick='request()'> <img src="./assets/go.png"> </button>`
 
     document.getElementById("portraitBox").innerHTML = tempstr
   }
@@ -174,9 +174,9 @@ function clearSelects(){
   console.log('start')
   selected = [];
 
-  let tempstr = "<button id='clear' onclick='clearSelects()'><img src=\"./clear.png\"></button>"
+  let tempstr = "<button id='clear' onclick='clearSelects()'><img src=\"./assets/clear.png\"></button>"
    
-    tempstr += `<button id='go' onclick='request()'> <img src="./go.png"> </button>`
+    tempstr += `<button id='go' onclick='request()'> <img src="./assets/go.png"> </button>`
 
     document.getElementById("portraitBox").innerHTML = tempstr
 
