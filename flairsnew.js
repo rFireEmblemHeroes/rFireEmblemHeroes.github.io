@@ -8,6 +8,13 @@ let data = {
   ":Monica:": "1162_9020.png",
   ":Bat:": "99_1014.png",
 
+  ":RobinF6:" : "1131_3060.png",
+  ":Gregor:" : "1131_15110.png",
+  ":Phila:" : "1131_9110.png",
+  ":Cervantes:" : "1131_25110.png",
+  ":Ricken:" : "1131_9010.png",
+  ":Elise5:" : "1143_12050.png",
+
   ":Ninian5:": "170_4050.png",
   ":Nils2:": "170_5020.png",
   ":Duma2:": "120_33020.png",
