@@ -8,6 +8,13 @@ let data = {
   ":Monica:": "1162_9020.png",
   ":Bat:": "99_1014.png",
 
+  ":Hardin2:": "110_30010.png",
+  ":Matthis:": "110_28011.png",
+  ":Elice:": "110_11110.png",
+  ":Nyna:": "110_30510.png",
+  ":TikiY7:": "110_3070.png",
+  ":Mia5:": "191_12050.png",
+
   ":Heath2:": "170_21020.png",
   ":Haar2:": "1101_10020.png",
   ":Cherche2:": "1131_24020.png",
@@ -19,7 +26,6 @@ let data = {
   ":Laegjarn5:": "3_3050.png",
   ":SelenaVG:": "8888_8050.png",
   ":LynVG:": "8888_7011.png",
-
   ":RobinF6:": "1131_3060.png",
   ":Gregor:": "1131_15110.png",
   ":Phila:": "1131_9110.png",
