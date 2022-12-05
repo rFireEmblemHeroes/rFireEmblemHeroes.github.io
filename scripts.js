@@ -9,6 +9,7 @@ const classguide = {
   7: "alfonse",
   8: "alfonse",
   9: "alfonse",
+  10: "alfonse",
   80: "alfonse",
   89: "alfonse",
   99: "alfonse",
