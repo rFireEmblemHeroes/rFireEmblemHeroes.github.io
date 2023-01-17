@@ -36,6 +36,8 @@ let data = {
 ":Chloe:": "1181_5010.png",
 ":Etie:": "1181_2010.png",
 ":Lumera:": "1180_3010.png",
+":CorrinF8:" : "1141_2080.png",
+
 
 
   ":Hilda4:": "1164_2040.png",
