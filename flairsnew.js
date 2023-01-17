@@ -28,7 +28,14 @@ let data = {
 
   ":BKVG:": "8888_9080.png",
    ":ShamirVG:": "8888_16520.png",
-
+":Njordr:": "10_6010.png",
+":Heidr:": "10_2010.png",
+":AlearF:": "1180_2010.png",
+":Celine:": "1181_4010.png",
+":Alfred:": "1181_1010.png",
+":Chloe:": "1181_5010.png",
+":Etie:": "1181_2010.png",
+":Lumera:": "1180_3010.png",
 
 
   ":Hilda4:": "1164_2040.png",

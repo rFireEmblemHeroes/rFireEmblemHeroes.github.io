@@ -139,13 +139,13 @@ body {
 	z-index: 2;
 	text-align: center;
 	width: 1126px;
-	margin: -127px auto;
+	margin: -180px auto;
 	height: 151px;
 	position: absolute;
 }
 
 .buttonBox button{
-	padding: 2px 10px;
+	padding: 2px 30px;
 }
 
 .buttonBox button img{

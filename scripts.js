@@ -44,10 +44,15 @@ const classguide = {
   1166: "sothis",
   1167: "sothis",
   1171: "itsuki",
+  1180: "alear",
+    1181: "alear",
+
   8888: "misc",
   9999: "misc"
 }
 arrkeys = []
+let keys = []
+let current_sel = 'all'
 //const SORT_KEYS = ['alfonse', 'marth', 'alm', 'seliph', 'leif', 'roy', 'lyn', 'ephraim', 'ike', 'micaiah', 'chrom', 'corrin', 'sothis', 'itsuki', 'all'];
 const NUMBER_OF_ARRAYS = 42
 let arrays = {};
@@ -80,7 +85,7 @@ function selectionSort(arr) {
 
 
 function filter(key) {
-  let sortkeys = ['alfonse', 'marth', 'alm', 'seliph', 'leif', 'roy', 'lyn', 'ephraim', 'ike', 'micaiah', 'chrom', 'corrin', 'sothis', 'itsuki', 'misc', 'all'];
+  let sortkeys = ['alfonse', 'marth', 'alm', 'seliph', 'leif', 'roy', 'lyn', 'ephraim', 'ike', 'micaiah', 'chrom', 'corrin', 'sothis', 'itsuki', 'alear', 'misc', 'all'];
   let index = sortkeys.indexOf(key)
   sortkeys.splice(index, 1);
   for (let j = 0; j < sortkeys.length; j++) {
@@ -101,6 +106,8 @@ function filter(key) {
   let id = `${key}img`;
   let file = `sortIcons/${key}Glow.png`;
   document.getElementById(id).src = file;
+
+  current_sel = key
 }
 
 function showAll() {
@@ -116,11 +123,12 @@ function showAll() {
     document.getElementById(id).src = file;
   }
   document.getElementById('allimg').src = `sortIcons/allGlow.png`
+   current_sel = 'all'
 }
 async function generate() {
   let flairs = data;
   let arr = [];
-  let keys = Object.keys(flairs)
+  keys = Object.keys(flairs)
   for (let i = 0; i < keys.length; i++) {
     let img = flairs[keys[i]]
     let gamecode = parseInt(img.substring(0, img.indexOf('_')))
@@ -145,6 +153,20 @@ async function generate() {
     }
   }
   document.getElementById("main").innerHTML = tempStr
+
+
+}
+
+function random(){
+
+     let sel = keys[Math.floor(Math.random() * keys.length)];
+  addToBar(sel)
+
+  
+    
+
+
+ 
 }
 
 function addToBar(flaircode){
@@ -172,16 +194,42 @@ function addToBar(flaircode){
 }
 
 function clearSelects(){
-  console.log('start')
-  selected = [];
 
-  let tempstr = "<button id='clear' onclick='clearSelects()'><img src=\"./assets/clear.png\"></button>"
-   
-    tempstr += `<button id='go' onclick='request()'> <img src="./assets/go.png"> </button>`
 
-    document.getElementById("portraitBox").innerHTML = tempstr
+  selected.pop();
 
-    console.log(selected)
+   buttonhtml1= `<button id='clear' onclick='clearSelects()'><img src=\"./assets/clear.png\"></button>`
+    buttonhtml2= `<button id='go' onclick='request()'> <img src="./assets/go.png"> </button>`
+
+  flairhtml = document.getElementById('portraitBox').innerHTML
+ 
+  let index = flairhtml.indexOf('</button>');
+  flairhtml = flairhtml.substring(index+9, flairhtml.length);
+ 
+  flairhtml = flairhtml.split('<button')
+  flairhtml = flairhtml[0] 
+
+  arr = flairhtml.split('>');
+
+  arr.pop();
+    arr.pop();
+
+  if(arr.length == 0){
+    flairhtml = "";
+  }
+  else {
+     flairhtml = arr.join('>')
+     flairhtml += '>'
+  }
+
+  document.getElementById('portraitBox').innerHTML =    buttonhtml1 + flairhtml + buttonhtml2
+
+
+
+
+
+
+
 }
 
 function request(){
