@@ -18,6 +18,15 @@ let data = {
   ":Fomortiis:" : "180_40010.png",
   ":Gotoh:" : "110_51010.png",
 
+
+  ":Nerthuz:" : "10_4010.png",
+    ":Elincia5:" : "192_1050.png",
+      ":Geoffrey:" : "192_3010.png",
+        ":Lucia:" : "192_2010.png",
+          ":Bastian:" : "192_4010.png",
+            ":Ludveck:" : "192_4110.png",
+              ":Innes4:" : "180_4040.png",
+
   ":BK2:": "1101_13020.png",
   ":Dorothea4:": "1162_7040.png",
   ":Annette2:": "1163_8020.png",
