@@ -22,6 +22,7 @@ let data = {
   ":Ashe3:": "1163_6030.png",
   ":Bernadetta3:": "1162_6030.png",
   ":Lyn10:": "170_2090.png",
+  ":RobinM7:": "1131_2070.png",
   ":Nerthuz:": "10_4010.png",
   ":Elincia5:": "192_1050.png",
   ":Geoffrey:": "192_3010.png",
