@@ -5,6 +5,16 @@ let data = {
   ":Elm2:": "9_2020.png",
   ":Panne2:": "1131_27020.png",
   ":Yarne2:": "1132_6020.png",
+
+  ":Tana6:" : "180_5060.png",
+  ":Gilliam:" : "180_11011.png",
+  ":Vanessa:" : "180_11012.png",
+  ":Syrene:" : "180_.11013png",
+  ":Vigarde:" : "180_.png",
+  ":Palla5:" : "110_9040.png",
+
+
+
   ":Elise6:": "1143_12060.png",
   ":Sakura4:": "1142_11040.png",
   ":Takumi6:": "1142_8060.png",
