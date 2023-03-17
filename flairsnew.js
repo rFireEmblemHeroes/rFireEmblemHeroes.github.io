@@ -9,8 +9,8 @@ let data = {
   ":Tana6:" : "180_5060.png",
   ":Gilliam:" : "180_11011.png",
   ":Vanessa:" : "180_11012.png",
-  ":Syrene:" : "180_.11013png",
-  ":Vigarde:" : "180_.png",
+  ":Syrene:" : "180_11013png",
+  ":Vigarde:" : "180_39010.png",
   ":Palla5:" : "110_9040.png",
 
 
