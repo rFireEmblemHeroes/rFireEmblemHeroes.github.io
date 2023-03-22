@@ -45,8 +45,7 @@ const classguide = {
   1167: "sothis",
   1171: "itsuki",
   1180: "alear",
-    1181: "alear",
-
+  1181: "alear",
   8888: "misc",
   9999: "misc"
 }
@@ -111,7 +110,7 @@ function filter(key) {
 }
 
 function showAll() {
-  let sortkeys = ['alfonse', 'marth', 'alm', 'seliph', 'leif', 'roy', 'lyn', 'ephraim', 'ike', 'micaiah', 'chrom', 'corrin', 'sothis', 'itsuki', 'misc', 'all'];
+  let sortkeys = ['alfonse', 'marth', 'alm', 'seliph', 'leif', 'roy', 'lyn', 'ephraim', 'ike', 'micaiah', 'chrom', 'corrin', 'sothis', 'itsuki', 'alear', 'misc', 'all'];
   for (let j = 0; j < sortkeys.length; j++) {
     let nodes = document.getElementsByClassName(`${sortkeys[j]}`)
     for (let i = 0; i < nodes.length; i++) {
