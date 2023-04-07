@@ -13,6 +13,17 @@ let data = {
   ":Vigarde:" : "180_39010.png",
   ":Palla5:" : "110_9040.png",
 
+  ":Hector7:" : "170_3070.png",
+  ":Lyn11:" : "170_2100.png",
+  ":Lucius2:" : "170_12020.png",
+  ":Mark:" : "170_3120.png",
+  ":Aversa2:" : "1131_19020.png",
+  ":Eliwood7:" : "170_1060.png",
+  ":Rebecca2:" : "170_13020.png",
+  ":Yuri2:" : "1165_1020.png",
+  ":AshVG:" : "8888_0040.png",
+  ":FomoVG:" : "8888_8021.png",
+
 
 
   ":Elise6:": "1143_12060.png",
