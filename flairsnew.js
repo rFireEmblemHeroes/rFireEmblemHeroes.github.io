@@ -24,6 +24,14 @@ let data = {
   ":AshVG:" : "8888_0040.png",
   ":FomoVG:" : "8888_8021.png",
 
+  ":Cornelia:" : "1167_2011.png",
+    ":Rhea:" : "1166_1010.png",
+      ":Sylvain:" : "1163_4010.png",
+        ":Ingrid3:" : "1163_5030.png",
+          ":Felix:" : "1163_3010.png",
+            ":Kvasir:" : "10_7010.png",
+              ":Cecilia4:" : "160_27040.png",
+
 
 
   ":Elise6:": "1143_12060.png",
