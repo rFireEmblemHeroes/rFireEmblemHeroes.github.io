@@ -6,6 +6,13 @@ let data = {
   ":Panne2:": "1131_27020.png",
   ":Yarne2:": "1132_6020.png",
 
+  ":Chrom9:" : "1131_1090.png",
+  ":Surtr3:" : "3_2030.png",
+  ":BylethF5:" : "1161_2050.png",
+  ":Linus2:" : "170_28020.png",
+  ":Anankos2:" : "1141_8020.png",
+  ":Maria3:" : "110_8030.png",
+
   ":Tana6:" : "180_5060.png",
   ":Gilliam:" : "180_11011.png",
   ":Vanessa:" : "180_11012.png",
