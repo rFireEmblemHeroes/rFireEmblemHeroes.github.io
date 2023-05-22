@@ -37,7 +37,7 @@ let data = {
         ":Flavia2:" : "1131_13220.png",
           ":Anna4:" : "1131_28020.png",
             ":Ninian6:" : "170_4060.png",
-              ":tikiY8:" : "110_3080.png",
+              ":TikiY8:" : "110_3080.png",
 
   ":Cornelia:" : "1167_2011.png",
     ":Rhea:" : "1166_1010.png",
