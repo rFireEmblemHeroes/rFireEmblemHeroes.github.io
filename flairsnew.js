@@ -31,6 +31,14 @@ let data = {
   ":AshVG:" : "8888_0040.png",
   ":FomoVG:" : "8888_8021.png",
 
+  ":RobinM8:" : "1131_2080.png",
+    ":TikiA4:" : "1131_22040.png",
+      ":Sayri2:" : "1131_21020.png",
+        ":Flavia2:" : "1131_13220.png",
+          ":Anna4:" : "1131_28020.png",
+            ":Ninian6:" : "170_4060.png",
+              ":tikiY8:" : "110_3080.png",
+
   ":Cornelia:" : "1167_2011.png",
     ":Rhea:" : "1166_1010.png",
       ":Sylvain:" : "1163_4010.png",
