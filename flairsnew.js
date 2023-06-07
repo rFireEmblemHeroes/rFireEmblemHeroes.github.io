@@ -47,6 +47,14 @@ let data = {
             ":Kvasir:" : "10_7010.png",
               ":Cecilia4:" : "160_27040.png",
 
+  ":Fir3:" : "160_19030.png",
+    ":Noah:" : "160_19110.png",
+      ":Saul:" : "160_14110.png",
+        ":Dorothy:" : "160_14210.png",
+          ":Murdock:" : "160_33110.png",
+            ":Hinoka5:" : "1142_5050.png",
+              ":Sigurd4:" : "141_1040.png",
+
 
 
   ":Elise6:": "1143_12060.png",
@@ -1049,7 +1057,7 @@ let data = {
   ":Sanaki3:": "1102_2020.png",
   ":Sanaki4:": "1102_2040.png",
   ":Sara:": "150_12010.png",
-  ":Saul2:": "160_14110.png",
+  ":Saul2:": "160_14120.png",
   ":Sayri:": "1131_21010.png",
   ":Sedgar:": "110_30210.png",
   ":Seiros:": "1161_4010.png",
