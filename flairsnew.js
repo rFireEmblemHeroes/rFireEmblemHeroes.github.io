@@ -55,6 +55,14 @@ let data = {
             ":Hinoka5:" : "1142_5050.png",
               ":Sigurd4:" : "141_1040.png",
 
+  ":RobinF7:" : "1131_3070.png",
+    ":Ephraim8:" : "180_2080.png",
+      ":Laracel5:" : "180_6050.png",
+        ":ShezF3:" : "1161_3330.png",
+          ":ShezM2:" : "1161_3220.png",
+            ":Catherine2:" : "1166_4020.png",
+              ":Shamir3:" : "1166_5030.png",
+
 
 
   ":Elise6:": "1143_12060.png",
