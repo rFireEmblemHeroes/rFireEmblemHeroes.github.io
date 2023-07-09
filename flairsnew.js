@@ -63,6 +63,19 @@ let data = {
             ":Catherine2:" : "1166_4020.png",
               ":Shamir3:" : "1166_5030.png",
 
+  ":Ymir2:" : "4_7020.png",
+  ":Eir4:" : "4_2040.png",
+  ":Ivy2:" : "1183_1020.png",
+  ":Fjorm6:" : "2_2060.png",
+  ":Tharja6:" : "1131_17060.png",
+  ":Donnel2:" : "1131_11120.png",
+  ":Guinivere2:" : "160_3020.png",
+  ":Eitr:" : "5_7010.png",
+  ":MarkVG:" : "8888_7000.png",
+  ":RobinM8VG:" : "8888_13011.png",
+  ":Nanna2VG:" : "8888_5030.png",
+  ":Nina3:" : "1144_13030.png",
+
 
 
   ":Elise6:": "1143_12060.png",

@@ -46,6 +46,11 @@ const classguide = {
   1171: "itsuki",
   1180: "alear",
   1181: "alear",
+  1182: "alear",
+  1183: "alear",
+  1184: "alear",
+  1185: "alear",
+  1186: "alear",
   8888: "misc",
   9999: "misc"
 }
