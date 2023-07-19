@@ -13,6 +13,14 @@ let data = {
   ":Anankos2:" : "1141_8020.png",
   ":Maria3:" : "110_8030.png",
 
+  ":AlearM:" : "1180_1010.png",
+  ":Diamant:" : "1182_1010.png",
+  ":Alcryst:" : "1182_4010.png",
+  ":Citrinne:" : "1182_5010.png",
+  ":Lapis:" : "1182_6010.png",
+  ":Zephia:" : "1185_1010.png",
+  ":Lucius3:" : "170_12030.png",
+
   ":Tana6:" : "180_5060.png",
   ":Gilliam:" : "180_11011.png",
   ":Vanessa:" : "180_11012.png",
