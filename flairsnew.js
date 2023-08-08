@@ -6,6 +6,15 @@ let data = {
   ":Panne2:": "1131_27020.png",
   ":Yarne2:": "1132_6020.png",
 
+  ":Sigurd5:" : "141_1050.png",
+  ":Ayra2:" : "141_11020.png",
+  ":Tailtiu3:" : "141_7030.png",
+  ":Ferdinand2:" : "1162_3020.png",
+  ":Lysithea4:" : "1164_5040.png",
+   ":Mercedes3:" : "1163_7030.png",
+  ":Nephenee3:" : "192_5030.png",
+  ":Ephraim8VG:" : "8888_8011.png",
+
   ":Chrom9:" : "1131_1090.png",
   ":Surtr3:" : "3_2030.png",
   ":BylethF5:" : "1161_2050.png",
