@@ -720,6 +720,7 @@ let data = {
     ":Elincia2:",
     ":Elincia4:",
     ":Elincia5:",
+    ":Elincia6:",
     ":Lucia:",
     ":Geoffrey:",
     ":Bastian:",
