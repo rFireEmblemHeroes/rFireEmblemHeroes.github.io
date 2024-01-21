@@ -1,3 +1,11 @@
+
+
+
+
+
+
+
+
 let data = {
   "alfonse": [
     ":Alfonse:",
@@ -19,6 +27,7 @@ let data = {
     ":Fehnix:",
     ":Veronica:",
     ":Veronica2:",
+    ":Veronica2R:",
     ":Veronica3:",
     ":Veronica4:",
     ":Veronica5:",
@@ -466,6 +475,7 @@ let data = {
     ":Cath2:",
     ":Zelot2:",
     ":Juno2:",
+    ":Juno3:",
     ":Thea:",
     ":Thea2:",
     ":Shanna:",
@@ -501,6 +511,7 @@ let data = {
     ":Hugh:",
     ":Igrene:",
     ":Igrene2:",
+    ":Igrene3:",
     ":Sophia:",
     ":Sophia2:",
     ":Sophia3:",
@@ -582,7 +593,9 @@ let data = {
     ":Pent2:",
     ":Louise:",
     ":Louise2:",
+    ":Louise3:",
     ":Hawkeye:",
+    ":Hawkeye2:",
     ":Fiora:",
     ":Fiora2:",
     ":Farina:",
@@ -781,6 +794,7 @@ let data = {
     ":Altina:",
     ":Altina2:",
     ":Altina3:",
+    ":Altina4:",
     ":Sanaki:",
     ":Sanaki3:",
     ":Sanaki2:",
@@ -796,6 +810,9 @@ let data = {
     ":Zelgius:",
     ":Zelgius2:",
     ":Oliver:",
+    ":Tormod2:",
+    ":Muarim2:",
+    ":Vika2:",
     ":Caineghis:",
     ":Ranulf:",
     ":Mordecai:",
@@ -814,12 +831,11 @@ let data = {
     ":Leanne:",
     ":Leanne2:",
     ":Naesala:",
-    ":Naesala2:",
-    ":Vika2:",
+    ":Naesala2:",  
     ":Nailah:",
     ":Nailah2:",
     ":Nailah3:",
-    ":Muarim2:",
+
     ":Ashera:",
     ":Yune:"
   ],
