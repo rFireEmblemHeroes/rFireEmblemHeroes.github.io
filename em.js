@@ -1,11 +1,3 @@
-
-
-
-
-
-
-
-
 let data = {
   "alfonse": [
     ":Alfonse:",
@@ -163,6 +155,7 @@ let data = {
     ":Marth3:",
     ":Marth5:",
     ":Marth7:",
+    ":Marth8:",
     ":Caeda:",
     ":Caeda5:",
     ":Caeda2:",
@@ -644,6 +637,7 @@ let data = {
     ":Eirika6:",
     ":Eirika7:",
     ":Eirika8:",
+    ":Eirika9:",
     ":Ephraim:",
     ":Ephraim2:",
     ":Ephraim4:",
@@ -653,11 +647,13 @@ let data = {
     ":Ephraim7:",
     ":Ephraim8:",
     ":Ephraim9:",
+    ":Ephraim10:",
     ":Lyon:",
     ":Lyon2:",
     ":Lyon3:",
     ":Lyon4:",
     ":Lyon5:",
+    ":Lyon6:",
     ":Innes:",
     ":Innes2:",
     ":Innes3:",
@@ -704,15 +700,18 @@ let data = {
     ":Myrrh2:",
     ":Myrrh3:",
     ":Myrrh4:",
+    ":Myrrh5:",
     ":Saleh2:",
     ":Cormag:",
     ":Duessel:",
     ":SelenaSS:",
     ":SelenaSS2:",
+    ":SelenaSS3:",
     ":Valter:",
     ":Caellach:",
     ":Riev:",
     ":Vigarde:",
+    ":Vigarde2:",
     ":Fomortiis:"
   ],
   "ike": [
@@ -727,6 +726,7 @@ let data = {
     ":Titania:",
     ":Titania2:",
     ":Soren:",
+    ":SorenR:",
     ":Soren2:",
     ":Soren3:",
     ":Soren4:",
@@ -831,11 +831,10 @@ let data = {
     ":Leanne:",
     ":Leanne2:",
     ":Naesala:",
-    ":Naesala2:",  
+    ":Naesala2:",
     ":Nailah:",
     ":Nailah2:",
     ":Nailah3:",
-
     ":Ashera:",
     ":Yune:"
   ],
@@ -1263,6 +1262,7 @@ let data = {
     ":AlearF2:",
     ":Veyle:",
     ":Lumera:",
+    ":Lumera2:",
     ":Alfred:",
     ":Etie:",
     ":Celine:",
