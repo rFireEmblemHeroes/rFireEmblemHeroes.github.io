@@ -264,6 +264,7 @@ let data = {
     ":Celica6:",
     ":Celica2:",
     ":Celica3:",
+    ":Celica3R:",
     ":Celica4:",
     ":Celica5:",
     ":Celica7:",
@@ -1272,10 +1273,15 @@ let data = {
     ":Citrinne:",
     ":Lapis:",
     ":Yunaka2:",
+    ":Ivy:",
     ":Ivy2:",
+    ":Kagetsu:",
+    ":Hortensia:",
+    ":Rosado:",
     ":Anna5:",
     ":Timerra:",
     ":Seadall:",
+    ":Mauvier:",
     ":Zephia:"
   ],
   "misc": [
