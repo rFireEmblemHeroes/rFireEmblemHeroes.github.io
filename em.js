@@ -1090,6 +1090,7 @@ let data = {
     ":Camilla10:",
     ":Beruka:",
     ":SelenaF:",
+    ":SelenaR:",
     ":Selena2:",
     ":Leo:",
     ":Leo2:",
