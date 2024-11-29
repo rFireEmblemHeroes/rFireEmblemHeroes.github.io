@@ -1,6 +1,5 @@
 
 
-
 let data = {
   "alfonse": [
     ":Alfonse:",
@@ -20,6 +19,14 @@ let data = {
     ":Henriette:",
     ":Henriette2:",
     ":Kiran:",
+":KiranF1:",
+":KiranF2:",
+":KiranF3:",
+":KiranF4:",
+":KiranM1:",
+":KiranM2:",
+":KiranM3:",
+":KiranM4:",
     ":Feh:",
     ":Fehnix:",
     ":Veronica:",
@@ -494,11 +501,23 @@ let data = {
     ":Lilina6:",
     ":Lilina5:",
     ":Lilina7:",
+
+
+
+":Lilina8:",
+
+
+
+
+
+
     ":Guinivere:",
     ":Guinivere2:",
     ":Wolt2:",
     ":Merlinus:",
     ":Gwendolyn:",
+    ":Bors:",
+":Ogier:",
     ":Gonzalez:",
     ":Lugh:",
     ":Raigh:",
@@ -530,9 +549,11 @@ let data = {
     ":Noah:",
     ":Rutger:",
     ":Echidna:",
+    ":Elffin:",
     ":Larum:",
     ":Larum2:",
     ":Geese2:",
+    ":Zeiss:",
     ":Melady:",
     ":Galle:",
     ":Perceval:",
@@ -669,6 +690,7 @@ let data = {
     ":Nino:",
     ":Nino4:",
     ":Nino2:",
+    ":Nino2R:",
     ":Nino3:",
     ":Nino5:",
     ":Nino6:",
