@@ -1,5 +1,3 @@
-
-
 let data = {
   "alfonse": [
     ":Alfonse:",
@@ -19,14 +17,14 @@ let data = {
     ":Henriette:",
     ":Henriette2:",
     ":Kiran:",
-":KiranF1:",
-":KiranF2:",
-":KiranF3:",
-":KiranF4:",
-":KiranM1:",
-":KiranM2:",
-":KiranM3:",
-":KiranM4:",
+    ":KiranF1:",
+    ":KiranF2:",
+    ":KiranF3:",
+    ":KiranF4:",
+    ":KiranM1:",
+    ":KiranM2:",
+    ":KiranM3:",
+    ":KiranM4:",
     ":Feh:",
     ":Fehnix:",
     ":Veronica:",
@@ -117,8 +115,6 @@ let data = {
     ":Fafnir:",
     ":Fafnir3:",
     ":Fafnir2:",
-
-    
     ":Nidavellir:",
     ":Dagr:",
     ":Dagr2:",
@@ -126,7 +122,6 @@ let data = {
     ":Dagr4:",
     ":Nott:",
     ":Nott2:",
-  
     ":Pjazi:",
     ":Eitri:",
     ":Askr:",
@@ -160,6 +155,9 @@ let data = {
     ":Eikthyrnir:",
     ":Heidrun:",
     ":Laeradr:",
+    ":Rune:",
+    ":Hodr:",
+    ":Baldr:",
     ":Loki:",
     ":Loki2:",
     ":Loki3:",
@@ -301,6 +299,7 @@ let data = {
     ":Alm2:",
     ":Alm4:",
     ":Alm5:",
+    ":Alm5R:",
     ":Alm3:",
     ":Celica:",
     ":Celica6:",
@@ -501,23 +500,14 @@ let data = {
     ":Lilina6:",
     ":Lilina5:",
     ":Lilina7:",
-
-
-
-":Lilina8:",
-
-
-
-
-
-
+    ":Lilina8:",
     ":Guinivere:",
     ":Guinivere2:",
     ":Wolt2:",
     ":Merlinus:",
     ":Gwendolyn:",
     ":Bors:",
-":Ogier:",
+    ":Ogier:",
     ":Gonzalez:",
     ":Lugh:",
     ":Raigh:",
@@ -614,6 +604,7 @@ let data = {
     ":Hector3:",
     ":Hector5:",
     ":Hector7:",
+    ":Hector8:",
     ":Mark:",
     ":Ninian:",
     ":Ninian2:",
@@ -631,6 +622,8 @@ let data = {
     ":Matthew2:",
     ":Leila:",
     ":Leila2:",
+    ":Leila3:",
+    ":Oswin:",
     ":Serra:",
     ":Serra2:",
     ":Erk:",
@@ -672,6 +665,8 @@ let data = {
     ":Karla3:",
     ":Karla4:",
     ":Rath:",
+    ":Vaida:",
+    ":Uther:",
     ":Nergal:",
     ":Sonia:",
     ":Limstella:",
@@ -938,11 +933,7 @@ let data = {
     ":Chrom8:",
     ":Chrom9:",
     ":ChromB:",
-
-":ChromB2:",
-
-
-
+    ":ChromB2:",
     ":RobinM:",
     ":RobinM4:",
     ":RobinM2:",
@@ -1013,8 +1004,7 @@ let data = {
     ":Tharja4:",
     ":Tharja5:",
     ":Tharja6:",
-
-":Tharja7:",
+    ":Tharja7:",
     ":Sayri:",
     ":Sayri2:",
     ":TikiA:",
@@ -1052,9 +1042,7 @@ let data = {
     ":Lucina8:",
     ":Lucina9:",
     ":Lucina10:",
-        ":Lucina11:",
-
-
+    ":Lucina11:",
     ":Owain:",
     ":Owain2:",
     ":Inigo:",
@@ -1415,12 +1403,11 @@ let data = {
     ":Alfred:",
     ":Etie:",
     ":Celine:",
-       ":Celine2:",
+    ":Celine2:",
     ":Chloe:",
     ":Chloe2:",
     ":Diamant:",
-
-":Diamant2:",
+    ":Diamant2:",
     ":Alcryst:",
     ":Alcryst2:",
     ":Citrinne:",
