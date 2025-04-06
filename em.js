@@ -1,3 +1,9 @@
+
+
+
+
+
+
 let data = {
   "alfonse": [
     ":Alfonse:",
@@ -1114,7 +1120,9 @@ let data = {
     ":CorrinM5:",
     ":CorrinM6:",
     ":CorrinM7:",
+
     ":Corrin15:",
+        ":CorrinM8:",
     ":CorrinF:",
     ":CorrinF2:",
     ":CorrinF3:",
@@ -1124,6 +1132,7 @@ let data = {
     ":CorrinF7:",
     ":CorrinF8:",
     ":CorrinF9:",
+    ":CorrinF10:",
     ":Azura:",
     ":Azura6:",
     ":Azura2:",
@@ -1207,6 +1216,7 @@ let data = {
     ":Xander4:",
     ":Xander5:",
     ":Xander6:",
+    ":Xander7:",
     ":Peri:",
     ":Laslow:",
     ":Camilla:",
@@ -1221,6 +1231,12 @@ let data = {
     ":Camilla8:",
     ":Camilla9:",
     ":Camilla10:",
+
+
+
+
+
+":Camilla11:",
     ":Beruka:",
     ":SelenaF:",
     ":SelenaR:",
@@ -1230,6 +1246,7 @@ let data = {
     ":Leo3:",
     ":Leo4:",
     ":Leo5:",
+        ":Leo6:",
     ":Odin:",
     ":Odin2:",
     ":Niles:",
@@ -1241,6 +1258,7 @@ let data = {
     ":Elise4:",
     ":Elise5:",
     ":Elise6:",
+    ":Elise7:",
     ":Effie:",
     ":Effie2:",
     ":Effie3:",
@@ -1314,6 +1332,7 @@ let data = {
     ":Arval:",
     ":Seiros:",
     ":Edelgard:",
+    ":EdelgardR:",
     ":Edelgard3:",
     ":Edelgard2:",
     ":Edelgard4:",
