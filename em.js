@@ -1,9 +1,3 @@
-
-
-
-
-
-
 let data = {
   "alfonse": [
     ":Alfonse:",
@@ -202,6 +196,7 @@ let data = {
     ":Marth5:",
     ":Marth7:",
     ":Marth8:",
+    ":Marth9:",
     ":Caeda:",
     ":Caeda5:",
     ":Caeda2:",
@@ -209,6 +204,7 @@ let data = {
     ":Caeda4:",
     ":Caeda6:",
     ":Caeda7:",
+    ":Caeda8:",
     ":TikiY:",
     ":TikiY5:",
     ":TikiY2:",
@@ -217,6 +213,7 @@ let data = {
     ":TikiY6:",
     ":TikiY7:",
     ":TikiY8:",
+    ":TikiY9:",
     ":KrisM:",
     ":KrisM2:",
     ":KrisF:",
@@ -267,6 +264,7 @@ let data = {
     ":Astram:",
     ":Julian:",
     ":Lena:",
+    ":Lena2:",
     ":Matthis:",
     ":Rickard2:",
     ":Merric:",
@@ -291,6 +289,7 @@ let data = {
     ":Nagi2:",
     ":Xane2:",
     ":Xane3:",
+    ":Xane4:",
     ":Bantu:",
     ":Eremiya:",
     ":Katarina:",
@@ -302,11 +301,17 @@ let data = {
     ":Phina:",
     ":Wrys:",
     ":Athena:",
-    ":Gotoh:",
+    ":AthenaR:",
     ":Malice:",
     ":Malice2:",
+    ":Gotoh:",
+    ":Gotoh2:",
+    ":Naga:",
+    ":Naga2:",
+    ":Naga3:",
     ":Gharnef:",
-    ":Medeus:"
+    ":Medeus:",
+    ":Medeus2:"
   ],
   "alm": [
     ":Alm:",
@@ -746,6 +751,7 @@ let data = {
     ":Ephraim9:",
     ":Ephraim10:",
     ":Lyon:",
+    ":LyonR:",
     ":Lyon2:",
     ":Lyon3:",
     ":Lyon4:",
@@ -1110,7 +1116,8 @@ let data = {
     ":Cynthia:",
     ":Laurent:",
     ":Naga:",
-    ":Naga2:"
+    ":Naga2:",
+    ":Naga3:"
   ],
   "corrin": [
     ":CorrinM:",
@@ -1120,9 +1127,8 @@ let data = {
     ":CorrinM5:",
     ":CorrinM6:",
     ":CorrinM7:",
-
     ":Corrin15:",
-        ":CorrinM8:",
+    ":CorrinM8:",
     ":CorrinF:",
     ":CorrinF2:",
     ":CorrinF3:",
@@ -1231,12 +1237,7 @@ let data = {
     ":Camilla8:",
     ":Camilla9:",
     ":Camilla10:",
-
-
-
-
-
-":Camilla11:",
+    ":Camilla11:",
     ":Beruka:",
     ":SelenaF:",
     ":SelenaR:",
@@ -1246,7 +1247,7 @@ let data = {
     ":Leo3:",
     ":Leo4:",
     ":Leo5:",
-        ":Leo6:",
+    ":Leo6:",
     ":Odin:",
     ":Odin2:",
     ":Niles:",
@@ -1369,6 +1370,7 @@ let data = {
     ":Dimitri7:",
     ":Dedue:",
     ":Dedue2:",
+    ":Dedue3:",
     ":Felix:",
     ":Felix2:",
     ":Felix3:",
@@ -1457,10 +1459,12 @@ let data = {
     ":AlearM:",
     ":Alear4:",
     ":Alear6:",
+    ":Alear8:",
     ":AlearF:",
     ":AlearF2:",
     ":Alear5:",
     ":AlearB:",
+    ":Alear7:",
     ":Sommie2:",
     ":Veyle:",
     ":Veyle2:",
