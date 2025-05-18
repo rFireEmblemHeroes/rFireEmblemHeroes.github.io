@@ -1,3 +1,7 @@
+
+
+
+
 let data = {
   "alfonse": [
     ":Alfonse:",
@@ -449,20 +453,32 @@ let data = {
     ":Seliph3:",
     ":Seliph4:",
     ":Seliph5:",
+
+":Seliph6:",
+
+
+
+
     ":Julia:",
     ":Julia4:",
     ":Julia2:",
     ":Julia3:",
     ":Julia5:",
+        ":Julia6:",
+
+    ":Larcei:",
+    ":Larcei2:",
+    ":Larcei3:",
+    ":Scathach:",
+     ":Shannan:",
+        ":Lana2:",
     ":Febail:",
     ":Patty:",
+
     ":Ares:",
     ":Lene:",
     ":Lene2:",
-    ":Shannan:",
-    ":Larcei:",
-    ":Larcei2:",
-    ":Scathach:",
+
     ":Ced:",
     ":Ced2:",
     ":Fee:",
@@ -470,11 +486,14 @@ let data = {
     ":Arion:",
     ":Arthur_FE4:",
     ":Tine:",
-    ":Julius:",
+    ":Tine2:",
+
     ":Ishtar:",
     ":Ishtar3:",
     ":Ishtar2:",
     ":Ishtar4:",
+    ":Ishtar5:",
+        ":Julius:",
     ":Ullr:"
   ],
   "leif": [
@@ -1041,6 +1060,7 @@ let data = {
     ":Olivia5:",
     ":Gregor:",
     ":Henry:",
+    ":HenryR:",
     ":Henry2:",
     ":Henry3:",
     ":Tharja:",
