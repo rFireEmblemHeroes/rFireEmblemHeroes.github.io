@@ -1,3 +1,7 @@
+
+
+
+
 let data = {
   "alfonse": [
     ":Alfonse:",
@@ -165,14 +169,12 @@ let data = {
     ":Rune:",
     ":Hodr:",
     ":Baldr:",
-    ":Heimdallr:",
     ":Loki:",
     ":Loki2:",
     ":Loki3:",
     ":Loki4:",
     ":Thorr:",
     ":Thorr2:",
-    ":Alfador:",
     ":Bfafnir:",
     ":Bowflier:",
     ":Bowknight:",
@@ -451,24 +453,32 @@ let data = {
     ":Seliph3:",
     ":Seliph4:",
     ":Seliph5:",
-    ":Seliph6:",
+
+":Seliph6:",
+
+
+
+
     ":Julia:",
     ":Julia4:",
     ":Julia2:",
     ":Julia3:",
     ":Julia5:",
-    ":Julia6:",
+        ":Julia6:",
+
     ":Larcei:",
     ":Larcei2:",
     ":Larcei3:",
     ":Scathach:",
-    ":Shannan:",
-    ":Lana2:",
+     ":Shannan:",
+        ":Lana2:",
     ":Febail:",
     ":Patty:",
+
     ":Ares:",
     ":Lene:",
     ":Lene2:",
+
     ":Ced:",
     ":Ced2:",
     ":Fee:",
@@ -477,12 +487,13 @@ let data = {
     ":Arthur_FE4:",
     ":Tine:",
     ":Tine2:",
+
     ":Ishtar:",
     ":Ishtar3:",
     ":Ishtar2:",
     ":Ishtar4:",
     ":Ishtar5:",
-    ":Julius:",
+        ":Julius:",
     ":Ullr:"
   ],
   "leif": [
@@ -847,7 +858,6 @@ let data = {
     ":Ike10:",
     ":Ike11:",
     ":Titania:",
-    ":TitaniaR:",
     ":Titania2:",
     ":Soren:",
     ":SorenR:",
@@ -923,9 +933,8 @@ let data = {
     ":Jorge:",
     ":Jarod:",
     ":BK:",
-    ":BKR:",
     ":BK2:",
-    ":BK3:",
+    ":BKR:",
     ":Petrine:",
     ":Altina:",
     ":Altina2:",
@@ -999,7 +1008,6 @@ let data = {
     ":RobinM8:",
     ":RobinM9:",
     ":Robin15:",
-    ":GrimaM10:",
     ":RobinF:",
     ":RobinF7:",
     ":RobinF2:",
@@ -1009,7 +1017,6 @@ let data = {
     ":RobinF6:",
     ":Robin14:",
     ":Robin16:",
-    ":GrimaF7:",
     ":Lissa:",
     ":Lissa2:",
     ":Lissa3:",
@@ -1064,7 +1071,6 @@ let data = {
     ":Tharja5:",
     ":Tharja6:",
     ":Tharja7:",
-    ":Tharja8:",
     ":Sayri:",
     ":Sayri2:",
     ":TikiA:",
@@ -1090,7 +1096,6 @@ let data = {
     ":Gangrel:",
     ":Cervantes:",
     ":Yenfay:",
-    ":Excellus:",
     ":Walhart:",
     ":Validar:",
     ":Lucina:",
@@ -1122,7 +1127,6 @@ let data = {
     ":MorganF2:",
     ":Severa:",
     ":Severa2:",
-    ":Noire:",
     ":Noire2:",
     ":Noire3:",
     ":Nah:",
