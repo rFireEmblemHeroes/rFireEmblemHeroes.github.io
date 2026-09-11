@@ -103,7 +103,7 @@ function clearSelects() {
 }
 
 function request() {
-  let url = `https://www.reddit.com/message/compose/?to=Sothis_Bot&subject=Request%20a%20Flair&message=`
+  let url = `https://www.reddit.com/message/compose/?to=ResplendentFehnixBot&subject=Request%20a%20Flair&message=`
   for (let i = 0; i < selected.length; i++) {
     url += selected[i]
     url += '%0a'
